@@ -1,0 +1,2 @@
+webpackJsonp([7],{DCtn:function(t,e){},kIi0:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var r={render:function(){var t=this.$createElement;return(this._self._c||t)("div",{attrs:{id:"Software"}},[this._v("\n    大数据管理系统\n")])},staticRenderFns:[]};var a=n("Mz/3")({name:"Software",data:function(){return{}}},r,!1,function(t){n("DCtn")},"data-v-63d4e28a",null);e.default=a.exports}});
+//# sourceMappingURL=7.6d5c2141e2f4208b2995.js.map
