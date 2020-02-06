@@ -22,7 +22,7 @@
       </div>
     </div>
     <!-- 大数据管理系统 -->
-    <div id="bigData" class="container-fuild">
+<!--     <div id="bigData" class="container-fuild">
       <div class="row bigData-container">
         <div class="col-xs-12 col-sm-12 col-md-6 wow zoomIn">
           <img class="img-responsive" src="@/assets/img/img1.png" alt="大数据管理系统">
@@ -38,7 +38,7 @@
           <a href="#" class="btn btn-lg btn-block btn-info">联系我们</a>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- 您身边的IT专家 -->
     <div id="contactUs" class="container-fuild text-center">
       <div class="container contactUs-container wow slideInUp">
@@ -57,7 +57,7 @@
       </div>
     </div>
     <!-- 客户评价 -->
-    <div id="customer" class="container-fuild">
+<!--     <div id="customer" class="container-fuild">
       <div class="container customer-container">
         <p class="customer-title text-center">客户评价</p>
         <div class="swiper-container customer-swiper hidden-xs">
@@ -79,7 +79,6 @@
               <div class="customer-content2">{{item.title}}</div>
             </div>
           </div>
-          <!-- 如果需要导航按钮 -->
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
         </div>
@@ -100,7 +99,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- 为什么选择我们 -->
     <div id="whyChooseUs" class="conatiner-fuild">
       <div class="container">
@@ -145,27 +144,27 @@ export default {
         {
           img: require("@/assets/img/banner1.png"),
           path: "",
-          title: '您身边的IT专家1',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+          title: '您身边的IT专家',
+          content: '江苏科亚科技有限公司',
         },
-        {
-          img: require("@/assets/img/banner2.jpg"),
-          path: "",
-          title: '您身边的IT专家2',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
-        },
-        {
-          img: require("@/assets/img/banner1.png"),
-          path: "",
-          title: '您身边的IT专家3',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
-        },
-        {
-          img: require("@/assets/img/banner2.jpg"),
-          path: "",
-          title: '您身边的IT专家4',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
-        }
+        // {
+        //   img: require("@/assets/img/banner2.jpg"),
+        //   path: "",
+        //   title: '您身边的IT专家2',
+        //   content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+        // },
+        // {
+        //   img: require("@/assets/img/banner1.png"),
+        //   path: "",
+        //   title: '您身边的IT专家3',
+        //   content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+        // },
+        // {
+        //   img: require("@/assets/img/banner2.jpg"),
+        //   path: "",
+        //   title: '您身边的IT专家4',
+        //   content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+        // }
       ],
       customerList: [
         {
