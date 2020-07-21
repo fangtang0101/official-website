@@ -1,19 +1,19 @@
 <template>
   <div id="footer" class="container-fluid">
     <div class="logo">
-      <img src="@/assets/img/logo_white.png" alt="logo图">
+      <img src="@/assets/img/logo_white.png" alt="logo图" />
     </div>
-    <p class="title">江苏科亚科技有限公司</p>
+    <p class="title">承德科亚贸易有限公司</p>
     <p class="address_tel_fax">
-      <span>地址：江苏省宝应县叶挺东路90号楼门市108室</span>
-  <!--     <span>Tel：888-888-888</span>
-      <span>Fax：8888-88888888</span> -->
+      <span>地址：河北省承德市双桥区永盛现代城A6-1002</span>
+      <span>手机：13301542333</span>
+      <span>电话：0314-2207226</span>
     </p>
     <p class="email_wx">
-      <span>邮箱：1256997673@qq.com</span>
+      <!-- <span>邮箱：1256997673@qq.com</span> -->
       <!-- <span>公司微信号：ilyk_gg</span> -->
     </p>
-    <p class="copy">Copyright &copy; 苏ICP备18002377号-1</p>
+    <!-- <p class="copy">Copyright &copy; 苏ICP备18002377号-1</p> -->
   </div>
 </template>
 <script>
@@ -64,13 +64,12 @@ export default {
     font-size: 12px;
   }
   .email_wx {
-
-  font-size: 12px;
-}
-.copy {
-  font-size: 12px;
-  margin: 30px 0 10px;
-}
+    font-size: 12px;
+  }
+  .copy {
+    font-size: 12px;
+    margin: 30px 0 10px;
+  }
 }
 </style>
 

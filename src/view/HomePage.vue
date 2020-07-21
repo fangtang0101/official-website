@@ -5,11 +5,11 @@
       <div class="swiper-container banner-swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide" v-for="(item,index) in swiperList" :key="index">
-            <img class="swiper-lazy" :data-src="item.img" alt="轮播图">
+            <img class="swiper-lazy" :data-src="item.img" alt="轮播图" />
             <div class="swiper-lazy-preloader"></div>
             <div class="swiper-slide-title">
-                <h1>{{item.title}}</h1>
-                <p>{{item.content}}</p>
+              <h1>{{item.title}}</h1>
+              <p>{{item.content}}</p>
             </div>
           </div>
         </div>
@@ -22,7 +22,7 @@
       </div>
     </div>
     <!-- 大数据管理系统 -->
-<!--     <div id="bigData" class="container-fuild">
+    <!-- <div id="bigData" class="container-fuild">
       <div class="row bigData-container">
         <div class="col-xs-12 col-sm-12 col-md-6 wow zoomIn">
           <img class="img-responsive" src="@/assets/img/img1.png" alt="大数据管理系统">
@@ -38,7 +38,7 @@
           <a href="#" class="btn btn-lg btn-block btn-info">联系我们</a>
         </div>
       </div>
-    </div> -->
+    </div>-->
     <!-- 您身边的IT专家 -->
     <div id="contactUs" class="container-fuild text-center">
       <div class="container contactUs-container wow slideInUp">
@@ -57,7 +57,7 @@
       </div>
     </div>
     <!-- 客户评价 -->
-<!--     <div id="customer" class="container-fuild">
+    <!--     <div id="customer" class="container-fuild">
       <div class="container customer-container">
         <p class="customer-title text-center">客户评价</p>
         <div class="swiper-container customer-swiper hidden-xs">
@@ -99,7 +99,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>-->
     <!-- 为什么选择我们 -->
     <div id="whyChooseUs" class="conatiner-fuild">
       <div class="container">
@@ -118,7 +118,7 @@
               onmouseenter="this.style.color='#28f';this.style.borderColor='#28f'"
               onmouseleave="this.style.color='#666';this.style.borderColor='#ccc'"
             >
-              <img class="center-block" :src="item.logo" alt="logo">
+              <img class="center-block" :src="item.logo" alt="logo" />
               <p class="text-center">{{item.title}}</p>
               <div
                 class="text-center"
@@ -135,7 +135,7 @@
 </template>
 <script>
 import Swiper from "swiper";
-import { WOW } from 'wowjs';
+import { WOW } from "wowjs";
 export default {
   name: "HomePage",
   data() {
@@ -144,9 +144,27 @@ export default {
         {
           img: require("@/assets/img/banner1.png"),
           path: "",
-          title: '您身边的IT专家',
-          content: '江苏科亚科技有限公司',
+          title: "您身边的IT专家",
+          content: "承德科亚贸易有限公司"
         },
+        {
+          img: require("@/assets/img/banner_a.png"),
+          path: "",
+          title: "",
+          content: ""
+        },
+        {
+          img: require("@/assets/img/banner_b.png"),
+          path: "",
+          title: "",
+          content: ""
+        },
+        {
+          img: require("@/assets/img/banner_c.png"),
+          path: "",
+          title: "",
+          content: ""
+        }
         // {
         //   img: require("@/assets/img/banner2.jpg"),
         //   path: "",
@@ -280,7 +298,7 @@ export default {
     /* banner-swiper */
     new Swiper(".banner-swiper", {
       loop: true, // 循环模式选项
-      effect: 'fade',
+      effect: "fade",
       //自动播放
       autoplay: {
         delay: 3000,
@@ -324,12 +342,12 @@ export default {
     });
     /* wowjs动画 */
     var wow = new WOW({
-      boxClass: 'wow',
-      animateClass: 'animated',
+      boxClass: "wow",
+      animateClass: "animated",
       offset: 0,
       mobile: true,
       live: true
-    })
+    });
     wow.init();
   }
 };
@@ -352,7 +370,7 @@ export default {
   width: 100%;
   height: 100%;
 }
-#swiper .banner-swiper .swiper-slide{
+#swiper .banner-swiper .swiper-slide {
   position: relative;
 }
 #swiper .banner-swiper .swiper-slide-title {
@@ -367,11 +385,11 @@ export default {
   text-align: center;
   line-height: 80px;
 }
-#swiper .banner-swiper .swiper-slide-title > h1{
+#swiper .banner-swiper .swiper-slide-title > h1 {
   font-size: 50px;
   margin-top: 12%;
 }
-#swiper .banner-swiper .swiper-slide-title > p{
+#swiper .banner-swiper .swiper-slide-title > p {
   font-size: 20px;
   margin-top: 1%;
   font-weight: 700;

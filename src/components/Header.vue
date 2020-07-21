@@ -5,8 +5,8 @@
     <div class="header-top container-fuild hidden-xs">
       <div class="container">
         <div class="server pull-left">
-          <!-- <span class="glyphicon glyphicon-earphone"></span>888-888-888 -->
-          <span class="glyphicon glyphicon-envelope"></span>1256997673@qq.com
+          <span class="glyphicon glyphicon-earphone"></span>13301542333
+          <span class="glyphicon glyphicon-envelope"></span>0314-2207226
           <span class="glyphicon glyphicon-time"></span>7x24小时为您服务
         </div>
         <div class="shejiao pull-right">
@@ -19,7 +19,7 @@
     <div class="header-nav container hidden-xs">
       <!-- 导航logo -->
       <div class="header-nav-logo">
-        <img src="@/assets/img/logo_black.png">
+        <img src="@/assets/img/logo_black.png" />
       </div>
       <!-- 导航内容 -->
       <ul class="header-nav-wrapper">
@@ -45,7 +45,7 @@
     <!-- 手机导航 -->
     <div class="header-nav-m container-fuild visible-xs">
       <div class="header-nav-m-logo">
-        <img class="center-block" src="@/assets/img/logo_black.png" alt="logo">
+        <img class="center-block" src="@/assets/img/logo_black.png" alt="logo" />
       </div>
       <!-- 导航栏 -->
       <div class="header-nav-m-menu text-center">
@@ -83,7 +83,9 @@ export default {
   name: "Header",
   data() {
     return {
-      navIndex: sessionStorage.getItem('navIndex') ? sessionStorage.getItem('navIndex') : 0,
+      navIndex: sessionStorage.getItem("navIndex")
+        ? sessionStorage.getItem("navIndex")
+        : 0,
       menuName: "首页",
       menuClass: "glyphicon glyphicon-menu-down",
       navList: [
@@ -120,7 +122,7 @@ export default {
           name: "公司介绍",
           path: "/companyintroduction",
           children: []
-        },
+        }
         // {
         //   name: "工作机会",
         //   path: "/jobchance",
@@ -137,7 +139,7 @@ export default {
   methods: {
     navClick(index, name) {
       this.navIndex = index;
-      sessionStorage.setItem('navIndex',index)
+      sessionStorage.setItem("navIndex", index);
       this.menuName = name;
     },
     menuClick() {
