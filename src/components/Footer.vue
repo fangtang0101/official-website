@@ -3,17 +3,17 @@
     <div class="logo">
       <img src="@/assets/img/logo_white.png" alt="logo图" />
     </div>
-    <p class="title">承德科亚贸易有限公司</p>
+    <p class="title">闲小乙环保科技（扬州）有限公司</p>
     <p class="address_tel_fax">
-      <span>地址：河北省承德市双桥区永盛现代城A6-1002</span>
-      <span>手机：13301542333</span>
-      <span>电话：0314-2207226</span>
+      <span>地址：扬州市西门大街177号</span>
+      <span>15050789884</span>
+      <span>电话：0514-82800681</span>
     </p>
     <p class="email_wx">
       <!-- <span>邮箱：1256997673@qq.com</span> -->
       <!-- <span>公司微信号：ilyk_gg</span> -->
     </p>
-    <!-- <p class="copy">Copyright &copy; 苏ICP备18002377号-1</p> -->
+    <p class="copy">Copyright &copy; 苏ICP备20046278号</p>
   </div>
 </template>
 <script>

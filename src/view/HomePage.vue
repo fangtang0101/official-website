@@ -42,8 +42,8 @@
     <!-- 您身边的IT专家 -->
     <div id="contactUs" class="container-fuild text-center">
       <div class="container contactUs-container wow slideInUp">
-        <h1>您身边的IT专家</h1>
-        <h3>7x24小时提供出色的IT服务</h3>
+        <h1>专注环保回收行业</h1>
+        <h3>7x24小时提供相关服务</h3>
         <button
           class="btn btn-default btn-sm"
           onmouseleave="this.style.borderColor='#ffffff'; this.style.backgroundColor='#ffffff'; this.style.color='#3f3f3f';"
@@ -104,7 +104,7 @@
     <div id="whyChooseUs" class="conatiner-fuild">
       <div class="container">
         <div class="whyChooseUs-title text-center">
-          <p>为什么选择我们的服务</p>
+          <p>我们的优势</p>
           <p>THE REASON TO CHOOSING US</p>
         </div>
         <div class="row">
@@ -144,27 +144,27 @@ export default {
         {
           img: require("@/assets/img/banner1.png"),
           path: "",
-          title: "您身边的IT专家",
-          content: "承德科亚贸易有限公司"
-        },
-        {
-          img: require("@/assets/img/banner_a.png"),
-          path: "",
-          title: "",
-          content: ""
-        },
-        {
-          img: require("@/assets/img/banner_b.png"),
-          path: "",
-          title: "",
-          content: ""
-        },
-        {
-          img: require("@/assets/img/banner_c.png"),
-          path: "",
-          title: "",
-          content: ""
+          title: "助力环保回收行业",
+          content: "闲小乙"
         }
+        // {
+        //   img: require("@/assets/img/banner_a.png"),
+        //   path: "",
+        //   title: "",
+        //   content: ""
+        // },
+        // {
+        //   img: require("@/assets/img/banner_b.png"),
+        //   path: "",
+        //   title: "",
+        //   content: ""
+        // },
+        // {
+        //   img: require("@/assets/img/banner_c.png"),
+        //   path: "",
+        //   title: "",
+        //   content: ""
+        // }
         // {
         //   img: require("@/assets/img/banner2.jpg"),
         //   path: "",
