@@ -13,7 +13,7 @@
       <!-- <span>邮箱：1256997673@qq.com</span> -->
       <!-- <span>公司微信号：ilyk_gg</span> -->
     </p>
-    <p class="copy">Copyright &copy; 苏ICP备20046278号</p>
+    <a href="https://beian.miit.gov.cn" class="copy">Copyright &copy; 苏ICP备20046278号-1</a>
   </div>
 </template>
 <script>
